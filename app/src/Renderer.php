@@ -2,6 +2,7 @@
 namespace App;
 
 use Slim\Http\Body;
+use LSS\Array2XML;
 
 class Renderer
 {
@@ -20,13 +21,16 @@ class Renderer
                 $output = $this->renderHtml($data);
                 break;
 
+            case 'application/xml':
+                $xml = Array2XML::createXML('root', $data);
+                $output = $xml->saveXML();
+                break;
+
             case 'application/json':
             default:
                 $contentType = 'application/json';
                 $output = json_encode($data);
                 break;
-
-
         }
 
         $body = new Body(fopen('php://temp', 'r+'));

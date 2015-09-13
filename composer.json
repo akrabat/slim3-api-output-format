@@ -1,6 +1,7 @@
 {
     "require": {
-        "slim/slim": "^3.0@beta"
+        "slim/slim": "^3.0@beta",
+        "openlss/lib-array2xml": "^0.0.9"
     },
     "autoload": {
         "psr-4": {

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "df68a01955e2f55359cb5d442f51755c",
+    "hash": "43b413ce0730bdfb49072c1f2c9bb655",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -75,6 +75,55 @@
                 "routing"
             ],
             "time": "2015-06-18 19:15:47"
+        },
+        {
+            "name": "openlss/lib-array2xml",
+            "version": "0.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/openlss/lib-array2xml.git",
+                "reference": "21249c9aa40ec7bfc91776e4bc3cfe3ef4dce769"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/openlss/lib-array2xml/zipball/21249c9aa40ec7bfc91776e4bc3cfe3ef4dce769",
+                "reference": "21249c9aa40ec7bfc91776e4bc3cfe3ef4dce769",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "LSS": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Bryan Tong",
+                    "email": "contact@nullivex.com",
+                    "homepage": "http://bryantong.com"
+                },
+                {
+                    "name": "Tony Butler",
+                    "email": "spudz76@gmail.com",
+                    "homepage": "http://openlss.org"
+                }
+            ],
+            "description": "Array2XML conversion library credit to lalit.org",
+            "homepage": "http://openlss.org",
+            "keywords": [
+                "array",
+                "array conversion",
+                "xml",
+                "xml conversion"
+            ],
+            "time": "2013-03-27 03:38:29"
         },
         {
             "name": "pimple/pimple",
